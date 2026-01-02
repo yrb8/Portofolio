@@ -1099,9 +1099,14 @@ button {
         --section-padding: 80px 0;
     }
     
-    .nav-links,
-    .nav-cta {
+    .nav-links {
         display: none;
+    }
+    
+    .nav-cta {
+        display: inline-flex;
+        padding: 8px 16px;
+        font-size: 0.85rem;
     }
     
     .mobile-menu-btn {
